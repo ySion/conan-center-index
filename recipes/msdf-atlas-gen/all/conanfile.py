@@ -20,7 +20,7 @@ class MsdfAtlasGenConan(ConanFile):
 
     def requirements(self):
         self.requires("artery-font-format/1.0")
-        self.requires("msdfgen/1.9.1")
+        self.requires("msdfgen/1.12")
         self.requires("lodepng/cci.20200615")
 
     def layout(self):
